@@ -700,9 +700,18 @@ var testPoints = [
     }
   },
   {
-    code: '+proj=obtran +a=6400000 +h=1000000 +tilt=20',
+    code: '+proj=ob_tran +o_proj=moll +o_lat_p=45 +o_lon_p=-90',
     ll: [-2, -1],
-    xy: [-231609.982792523, -123274.645577324],
+    xy: [-7421459.0847, -5444548.62239],
+    acc: {
+      ll: 5,
+      xy: 0
+    }
+  },
+  {
+    code: '+proj=ob_tran +o_proj=moll +o_lat_p=45 +o_lon_p=-90',
+    ll: [2, 1],
+    xy: [-7123740.73522, -5227664.75993],
     acc: {
       ll: 5,
       xy: 0
