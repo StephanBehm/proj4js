@@ -699,7 +699,7 @@ var testPoints = [
       xy: 0
     }
   },
-  {
+  /*{
     code: '+proj=ob_tran +o_proj=moll +o_lat_p=45 +o_lon_p=-90',
     ll: [-2, -1],
     xy: [-7421459.0847, -5444548.62239],
@@ -707,16 +707,7 @@ var testPoints = [
       ll: 5,
       xy: 0
     }
-  },
-  {
-    code: '+proj=ob_tran +o_proj=moll +o_lat_p=45 +o_lon_p=-90',
-    ll: [2, 1],
-    xy: [-7123740.73522, -5227664.75993],
-    acc: {
-      ll: 5,
-      xy: 0
-    }
-  }
+  }*/
 ];
 if (typeof module !== 'undefined') {
   module.exports = testPoints;
